@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D20A9461F2671FB00115787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9451F2671FB00115787 /* main.m */; };
+		2D20A9491F2671FB00115787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9481F2671FB00115787 /* AppDelegate.m */; };
+		2D20A94C1F2671FB00115787 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A94B1F2671FB00115787 /* ViewController.m */; };
+		2D20A9521F2671FB00115787 /* ChocoTravelTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9501F2671FB00115787 /* ChocoTravelTest.xcdatamodeld */; };
+		2D20A9541F2671FB00115787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A9531F2671FB00115787 /* Assets.xcassets */; };
+		2D20A9571F2671FB00115787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A9551F2671FB00115787 /* LaunchScreen.storyboard */; };
+		2D20A95F1F26725500115787 /* OrderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A95E1F26725500115787 /* OrderCell.xib */; };
+		2D20A9621F26740300115787 /* OrderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9611F26740300115787 /* OrderCell.m */; };
+		2D20A9781F269BC200115787 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9771F269BC200115787 /* Order.m */; };
+		2D20A97A1F272C1B00115787 /* OrderHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A9791F272C1B00115787 /* OrderHeaderView.xib */; };
+		2D20A97D1F272DD400115787 /* OrderHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A97C1F272DD400115787 /* OrderHeaderView.m */; };
+		2D20A97F1F27320A00115787 /* OrderFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A97E1F27320A00115787 /* OrderFooterView.xib */; };
+		2D20A9821F2732FA00115787 /* OrderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9811F2732FA00115787 /* OrderFooterView.m */; };
+		2D20A9841F27394B00115787 /* HomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A9831F27394B00115787 /* HomeController.xib */; };
+		2D20A98A1F27629000115787 /* OrderDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9881F27629000115787 /* OrderDetailVC.m */; };
+		2D20A98B1F27629000115787 /* OrderDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A9891F27629000115787 /* OrderDetailVC.xib */; };
+		2D20A98D1F276D3700115787 /* OrderDetailHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A98C1F276D3700115787 /* OrderDetailHeaderView.xib */; };
+		2D20A9901F2780E800115787 /* OrderDetailHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A98F1F2780E800115787 /* OrderDetailHeaderView.m */; };
+		2D20A9941F27B26400115787 /* FlightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9921F27B26400115787 /* FlightCell.m */; };
+		2D20A9951F27B26400115787 /* FlightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A9931F27B26400115787 /* FlightCell.xib */; };
+		2D20A99F1F28C0A600115787 /* PassengerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A99D1F28C0A600115787 /* PassengerCell.m */; };
+		2D20A9A01F28C0A600115787 /* PassengerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A99E1F28C0A600115787 /* PassengerCell.xib */; };
+		2D20A9A31F28C5A400115787 /* PassengerHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9A21F28C5A400115787 /* PassengerHeaderView.m */; };
+		2D20A9A71F28CDD000115787 /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9A61F28CDD000115787 /* BookCell.m */; };
+		2D20A9AB1F28D11400115787 /* RefundExchangeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9AA1F28D11400115787 /* RefundExchangeHeaderView.m */; };
+		2D20A9B01F28D48700115787 /* RefundExchangeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D20A9AE1F28D48700115787 /* RefundExchangeCell.m */; };
+		2D20A9B11F28D48700115787 /* RefundExchangeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D20A9AF1F28D48700115787 /* RefundExchangeCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2D20A9411F2671FB00115787 /* ChocoTravelTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChocoTravelTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D20A9451F2671FB00115787 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2D20A9471F2671FB00115787 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D20A9481F2671FB00115787 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D20A94A1F2671FB00115787 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D20A94B1F2671FB00115787 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D20A9511F2671FB00115787 /* ChocoTravelTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChocoTravelTest.xcdatamodel; sourceTree = "<group>"; };
+		2D20A9531F2671FB00115787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D20A9561F2671FB00115787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D20A9581F2671FB00115787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D20A95E1F26725500115787 /* OrderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderCell.xib; sourceTree = "<group>"; };
+		2D20A9601F26740300115787 /* OrderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderCell.h; sourceTree = "<group>"; };
+		2D20A9611F26740300115787 /* OrderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderCell.m; sourceTree = "<group>"; };
+		2D20A9761F269BC200115787 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		2D20A9771F269BC200115787 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		2D20A9791F272C1B00115787 /* OrderHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderHeaderView.xib; sourceTree = "<group>"; };
+		2D20A97B1F272DD400115787 /* OrderHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderHeaderView.h; sourceTree = "<group>"; };
+		2D20A97C1F272DD400115787 /* OrderHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderHeaderView.m; sourceTree = "<group>"; };
+		2D20A97E1F27320A00115787 /* OrderFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderFooterView.xib; sourceTree = "<group>"; };
+		2D20A9801F2732FA00115787 /* OrderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderFooterView.h; sourceTree = "<group>"; };
+		2D20A9811F2732FA00115787 /* OrderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderFooterView.m; sourceTree = "<group>"; };
+		2D20A9831F27394B00115787 /* HomeController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeController.xib; sourceTree = "<group>"; };
+		2D20A9871F27629000115787 /* OrderDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailVC.h; sourceTree = "<group>"; };
+		2D20A9881F27629000115787 /* OrderDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailVC.m; sourceTree = "<group>"; };
+		2D20A9891F27629000115787 /* OrderDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderDetailVC.xib; sourceTree = "<group>"; };
+		2D20A98C1F276D3700115787 /* OrderDetailHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderDetailHeaderView.xib; sourceTree = "<group>"; };
+		2D20A98E1F2780E800115787 /* OrderDetailHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailHeaderView.h; sourceTree = "<group>"; };
+		2D20A98F1F2780E800115787 /* OrderDetailHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailHeaderView.m; sourceTree = "<group>"; };
+		2D20A9911F27B26400115787 /* FlightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlightCell.h; sourceTree = "<group>"; };
+		2D20A9921F27B26400115787 /* FlightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlightCell.m; sourceTree = "<group>"; };
+		2D20A9931F27B26400115787 /* FlightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlightCell.xib; sourceTree = "<group>"; };
+		2D20A99C1F28C0A600115787 /* PassengerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerCell.h; sourceTree = "<group>"; };
+		2D20A99D1F28C0A600115787 /* PassengerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerCell.m; sourceTree = "<group>"; };
+		2D20A99E1F28C0A600115787 /* PassengerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PassengerCell.xib; sourceTree = "<group>"; };
+		2D20A9A11F28C5A400115787 /* PassengerHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PassengerHeaderView.h; sourceTree = "<group>"; };
+		2D20A9A21F28C5A400115787 /* PassengerHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PassengerHeaderView.m; sourceTree = "<group>"; };
+		2D20A9A51F28CDD000115787 /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		2D20A9A61F28CDD000115787 /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		2D20A9A91F28D11400115787 /* RefundExchangeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefundExchangeHeaderView.h; sourceTree = "<group>"; };
+		2D20A9AA1F28D11400115787 /* RefundExchangeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefundExchangeHeaderView.m; sourceTree = "<group>"; };
+		2D20A9AD1F28D48700115787 /* RefundExchangeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RefundExchangeCell.h; sourceTree = "<group>"; };
+		2D20A9AE1F28D48700115787 /* RefundExchangeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RefundExchangeCell.m; sourceTree = "<group>"; };
+		2D20A9AF1F28D48700115787 /* RefundExchangeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RefundExchangeCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D20A93E1F2671FB00115787 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D20A9381F2671FB00115787 = {
+			isa = PBXGroup;
+			children = (
+				2D20A9431F2671FB00115787 /* ChocoTravelTest */,
+				2D20A9421F2671FB00115787 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D20A9421F2671FB00115787 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9411F2671FB00115787 /* ChocoTravelTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D20A9431F2671FB00115787 /* ChocoTravelTest */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9741F26998F00115787 /* Controller */,
+				2D20A9711F26996800115787 /* View */,
+				2D20A9471F2671FB00115787 /* AppDelegate.h */,
+				2D20A9481F2671FB00115787 /* AppDelegate.m */,
+				2D20A9531F2671FB00115787 /* Assets.xcassets */,
+				2D20A9551F2671FB00115787 /* LaunchScreen.storyboard */,
+				2D20A9581F2671FB00115787 /* Info.plist */,
+				2D20A9501F2671FB00115787 /* ChocoTravelTest.xcdatamodeld */,
+				2D20A9441F2671FB00115787 /* Supporting Files */,
+				2D20A9761F269BC200115787 /* Order.h */,
+				2D20A9771F269BC200115787 /* Order.m */,
+			);
+			path = ChocoTravelTest;
+			sourceTree = "<group>";
+		};
+		2D20A9441F2671FB00115787 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9451F2671FB00115787 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D20A9711F26996800115787 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9961F28BFF800115787 /* OrderCell */,
+				2D20A9991F28C03300115787 /* FlightCell */,
+				2D20A99B1F28C07000115787 /* PassengerCell */,
+				2D20A9A81F28D0AD00115787 /* BookCell */,
+				2D20A9B21F28D49200115787 /* RefundExchangeCell */,
+				2D20A9AC1F28D44600115787 /* RefundExchangeHeaderView */,
+				2D20A9A41F28C81D00115787 /* PassengerHeaderView */,
+				2D20A99A1F28C04700115787 /* OrderDetailHeaderView */,
+				2D20A9981F28C01F00115787 /* OrderFooterView */,
+				2D20A9971F28C00C00115787 /* OrderHeaderView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2D20A9741F26998F00115787 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9B41F28E44400115787 /* HomeController */,
+				2D20A9B31F28E43100115787 /* OrderDetailVC */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		2D20A9961F28BFF800115787 /* OrderCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A95E1F26725500115787 /* OrderCell.xib */,
+				2D20A9601F26740300115787 /* OrderCell.h */,
+				2D20A9611F26740300115787 /* OrderCell.m */,
+			);
+			name = OrderCell;
+			sourceTree = "<group>";
+		};
+		2D20A9971F28C00C00115787 /* OrderHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9791F272C1B00115787 /* OrderHeaderView.xib */,
+				2D20A97B1F272DD400115787 /* OrderHeaderView.h */,
+				2D20A97C1F272DD400115787 /* OrderHeaderView.m */,
+			);
+			name = OrderHeaderView;
+			sourceTree = "<group>";
+		};
+		2D20A9981F28C01F00115787 /* OrderFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9801F2732FA00115787 /* OrderFooterView.h */,
+				2D20A9811F2732FA00115787 /* OrderFooterView.m */,
+				2D20A97E1F27320A00115787 /* OrderFooterView.xib */,
+			);
+			name = OrderFooterView;
+			sourceTree = "<group>";
+		};
+		2D20A9991F28C03300115787 /* FlightCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9931F27B26400115787 /* FlightCell.xib */,
+				2D20A9911F27B26400115787 /* FlightCell.h */,
+				2D20A9921F27B26400115787 /* FlightCell.m */,
+			);
+			name = FlightCell;
+			sourceTree = "<group>";
+		};
+		2D20A99A1F28C04700115787 /* OrderDetailHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A98C1F276D3700115787 /* OrderDetailHeaderView.xib */,
+				2D20A98E1F2780E800115787 /* OrderDetailHeaderView.h */,
+				2D20A98F1F2780E800115787 /* OrderDetailHeaderView.m */,
+			);
+			name = OrderDetailHeaderView;
+			sourceTree = "<group>";
+		};
+		2D20A99B1F28C07000115787 /* PassengerCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A99C1F28C0A600115787 /* PassengerCell.h */,
+				2D20A99D1F28C0A600115787 /* PassengerCell.m */,
+				2D20A99E1F28C0A600115787 /* PassengerCell.xib */,
+			);
+			name = PassengerCell;
+			sourceTree = "<group>";
+		};
+		2D20A9A41F28C81D00115787 /* PassengerHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9A11F28C5A400115787 /* PassengerHeaderView.h */,
+				2D20A9A21F28C5A400115787 /* PassengerHeaderView.m */,
+			);
+			name = PassengerHeaderView;
+			sourceTree = "<group>";
+		};
+		2D20A9A81F28D0AD00115787 /* BookCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9A51F28CDD000115787 /* BookCell.h */,
+				2D20A9A61F28CDD000115787 /* BookCell.m */,
+			);
+			name = BookCell;
+			sourceTree = "<group>";
+		};
+		2D20A9AC1F28D44600115787 /* RefundExchangeHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9A91F28D11400115787 /* RefundExchangeHeaderView.h */,
+				2D20A9AA1F28D11400115787 /* RefundExchangeHeaderView.m */,
+			);
+			name = RefundExchangeHeaderView;
+			sourceTree = "<group>";
+		};
+		2D20A9B21F28D49200115787 /* RefundExchangeCell */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9AD1F28D48700115787 /* RefundExchangeCell.h */,
+				2D20A9AE1F28D48700115787 /* RefundExchangeCell.m */,
+				2D20A9AF1F28D48700115787 /* RefundExchangeCell.xib */,
+			);
+			name = RefundExchangeCell;
+			sourceTree = "<group>";
+		};
+		2D20A9B31F28E43100115787 /* OrderDetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9891F27629000115787 /* OrderDetailVC.xib */,
+				2D20A9871F27629000115787 /* OrderDetailVC.h */,
+				2D20A9881F27629000115787 /* OrderDetailVC.m */,
+			);
+			name = OrderDetailVC;
+			sourceTree = "<group>";
+		};
+		2D20A9B41F28E44400115787 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				2D20A9831F27394B00115787 /* HomeController.xib */,
+				2D20A94A1F2671FB00115787 /* ViewController.h */,
+				2D20A94B1F2671FB00115787 /* ViewController.m */,
+			);
+			name = HomeController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D20A9401F2671FB00115787 /* ChocoTravelTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D20A95B1F2671FB00115787 /* Build configuration list for PBXNativeTarget "ChocoTravelTest" */;
+			buildPhases = (
+				2D20A93D1F2671FB00115787 /* Sources */,
+				2D20A93E1F2671FB00115787 /* Frameworks */,
+				2D20A93F1F2671FB00115787 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChocoTravelTest;
+			productName = ChocoTravelTest;
+			productReference = 2D20A9411F2671FB00115787 /* ChocoTravelTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D20A9391F2671FB00115787 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ismailov.com;
+				TargetAttributes = {
+					2D20A9401F2671FB00115787 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VNZS5T8L94;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2D20A93C1F2671FB00115787 /* Build configuration list for PBXProject "ChocoTravelTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D20A9381F2671FB00115787;
+			productRefGroup = 2D20A9421F2671FB00115787 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D20A9401F2671FB00115787 /* ChocoTravelTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D20A93F1F2671FB00115787 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D20A9B11F28D48700115787 /* RefundExchangeCell.xib in Resources */,
+				2D20A9571F2671FB00115787 /* LaunchScreen.storyboard in Resources */,
+				2D20A97F1F27320A00115787 /* OrderFooterView.xib in Resources */,
+				2D20A9951F27B26400115787 /* FlightCell.xib in Resources */,
+				2D20A98B1F27629000115787 /* OrderDetailVC.xib in Resources */,
+				2D20A9541F2671FB00115787 /* Assets.xcassets in Resources */,
+				2D20A9841F27394B00115787 /* HomeController.xib in Resources */,
+				2D20A9A01F28C0A600115787 /* PassengerCell.xib in Resources */,
+				2D20A97A1F272C1B00115787 /* OrderHeaderView.xib in Resources */,
+				2D20A95F1F26725500115787 /* OrderCell.xib in Resources */,
+				2D20A98D1F276D3700115787 /* OrderDetailHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D20A93D1F2671FB00115787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D20A94C1F2671FB00115787 /* ViewController.m in Sources */,
+				2D20A9491F2671FB00115787 /* AppDelegate.m in Sources */,
+				2D20A99F1F28C0A600115787 /* PassengerCell.m in Sources */,
+				2D20A9821F2732FA00115787 /* OrderFooterView.m in Sources */,
+				2D20A9521F2671FB00115787 /* ChocoTravelTest.xcdatamodeld in Sources */,
+				2D20A9461F2671FB00115787 /* main.m in Sources */,
+				2D20A9B01F28D48700115787 /* RefundExchangeCell.m in Sources */,
+				2D20A9A31F28C5A400115787 /* PassengerHeaderView.m in Sources */,
+				2D20A9AB1F28D11400115787 /* RefundExchangeHeaderView.m in Sources */,
+				2D20A9781F269BC200115787 /* Order.m in Sources */,
+				2D20A9A71F28CDD000115787 /* BookCell.m in Sources */,
+				2D20A98A1F27629000115787 /* OrderDetailVC.m in Sources */,
+				2D20A97D1F272DD400115787 /* OrderHeaderView.m in Sources */,
+				2D20A9621F26740300115787 /* OrderCell.m in Sources */,
+				2D20A9941F27B26400115787 /* FlightCell.m in Sources */,
+				2D20A9901F2780E800115787 /* OrderDetailHeaderView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2D20A9551F2671FB00115787 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2D20A9561F2671FB00115787 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D20A9591F2671FB00115787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D20A95A1F2671FB00115787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D20A95C1F2671FB00115787 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VNZS5T8L94;
+				INFOPLIST_FILE = ChocoTravelTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ismailov.ChocoTravelTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2D20A95D1F2671FB00115787 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VNZS5T8L94;
+				INFOPLIST_FILE = ChocoTravelTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ismailov.ChocoTravelTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D20A93C1F2671FB00115787 /* Build configuration list for PBXProject "ChocoTravelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D20A9591F2671FB00115787 /* Debug */,
+				2D20A95A1F2671FB00115787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D20A95B1F2671FB00115787 /* Build configuration list for PBXNativeTarget "ChocoTravelTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D20A95C1F2671FB00115787 /* Debug */,
+				2D20A95D1F2671FB00115787 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2D20A9501F2671FB00115787 /* ChocoTravelTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2D20A9511F2671FB00115787 /* ChocoTravelTest.xcdatamodel */,
+			);
+			currentVersion = 2D20A9511F2671FB00115787 /* ChocoTravelTest.xcdatamodel */;
+			path = ChocoTravelTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2D20A9391F2671FB00115787 /* Project object */;
+}
